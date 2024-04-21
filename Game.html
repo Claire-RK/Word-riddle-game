@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet"  href="styesheet.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div class="containerBox">
+	
+		<p id="RiddleQuestion">Riddle:</p>
+		<div class="Questions" id="Questions">
+		<input type="text" id="answer1" class="inputs" maxlength="1">
+			<div class="input2"></div>
+			
+		</div>
+		<button  onclick="randomRiddle()" class="nextRiddle" id="nextRiddle">Riddle Me</button>
+	<div id="question"></div>
+		<div class="block"></div>
+		<div id="inputField">
+		</div>
+		<div class="clues">
+		<p >Chances Left: <span id="chances" class="chances"></span></p>
+		
+			<p class="Lost"></p>
+			<p class="Won"></p>
+		</div>
+	</div>
+	
+	<script src="Game.js"></script>
+</body>
+</html>
